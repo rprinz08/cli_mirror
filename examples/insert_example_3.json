@@ -1,0 +1,6 @@
+{
+  "html": "<article>\n  <section>\n    <p class=\"text-auto-size\">This <em class=\"yellow\">paragraph</em> auto-resizes according to the <strong class=\"blue\">HTML</strong> content length.\n    </p>\n  </section>\n</article>\n",
+  "notification": {
+    "level": "DEFAULT"
+  }
+}
