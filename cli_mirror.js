@@ -177,7 +177,7 @@ function main() {
 				
 				var content = params[0];
 				var attachment = params[1];
-				attachmentMime = mime.lookup(attachment);
+				var attachmentMime = mime.lookup(attachment);
 				log(LOG_INFO, 'Inserting timeline entry');
 
 				if(!attachment || attachment == '-' || !fs.existsSync(attachment)) {
@@ -249,7 +249,7 @@ function main() {
 				
 				var content = params[1];
 				var attachment = params[2];
-				attachmentMime = mime.lookup(attachment);
+				var attachmentMime = mime.lookup(attachment);
 
 				if(!attachment || attachment == '-' || !fs.existsSync(attachment)) {
 					if(attachment != '-')

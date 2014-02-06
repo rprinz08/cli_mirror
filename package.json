@@ -1,6 +1,6 @@
 {
   "name": "cli_mirror",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A tool for using then Google Glass Mirror API from node.js command line",
   "main": "cli_mirror.js",
   "directories": {
