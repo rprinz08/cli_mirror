@@ -6,7 +6,7 @@ rem (note when content param on command line starts with a '@'
 rem it is interpreted as filename without the @ from where to 
 rem read the JSON object) with picture attachment
 
-node.exe cli_mirror.js -I ^
+cli_mirror -I ^
 	@insert_example_3.json ^
 	./ColorBars.png
 	
