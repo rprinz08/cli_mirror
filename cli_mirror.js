@@ -7,7 +7,7 @@
 var stdio = require('stdio'),
 	fs = require('fs'),
 	colors = require('colors'),
-	glass = require('cli_mirror');
+	glassAPI = require('cli_mirror');
 
 
 // command line options
@@ -56,7 +56,7 @@ if(programOptions) {
 		args.logMode = 1
 }
 
-var glassClient = new glass.Glass(args);
+var glass = new glassAPI.Glass(args);
 glass.connectGui(null, doExit, main);
 
 
