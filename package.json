@@ -1,11 +1,12 @@
 {
   "name": "cli_mirror",
-  "version": "0.0.5",
-  "description": "A tool for using then Google Glass Mirror API from node.js command line",
-  "main": "cli_mirror.js",
+  "version": "0.0.10",
+  "description": "A tool and library for using then Google Glass Mirror API from node.js",
+  "main": "lib/glass.js",
   "directories": {
-    "example": "examples",
-	"glasses": "glasses"
+    "lib": "./lib",
+    "example": "./examples",
+	"glasses": "./glasses"
   },
   "dependencies": {
     "colors": "~0.6.2",
@@ -14,7 +15,8 @@
     "async": "~0.2.10",
     "mime": "~1.2.11",
     "open": "~0.0.4",
-    "stdio": "~0.1.5"
+    "stdio": "~0.1.5",
+	"q": "~1.0.1"
   },
   "devDependencies": {},
   "scripts": {
@@ -40,5 +42,7 @@
     "email": "richard.prinz@min.at",
     "url": "http://www.min.at/prinz"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "readme": "",
+  "readmeFilename": "README.md"  
 }
